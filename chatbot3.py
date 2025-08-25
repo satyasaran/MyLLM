@@ -11,7 +11,7 @@ client = OpenAI(
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
 
-st.title("🤖 Web Chatbot with Math Support")
+st.title("🤖 Satyasaran's Web Chatbot")
 
 user_input = st.text_input("Type your message and press Enter:")
 
