@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-HF_TOKEN = "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"
+HF_TOKEN = st.secrets["HF_TOKEN"]  # <-- safe, no key in GitHub
 
 client = OpenAI(
     base_url="https://router.huggingface.co/v1",
