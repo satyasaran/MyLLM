@@ -1,0 +1,4 @@
+streamlit
+openai
+regex
+huggingface_hub
